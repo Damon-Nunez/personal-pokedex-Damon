@@ -8,5 +8,5 @@ function Filter(){
         </div>
     )
 }
-
+// Filter component that returns a input that u can type text in... Specifically the name u dolt
 export default Filter

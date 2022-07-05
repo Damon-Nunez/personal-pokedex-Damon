@@ -1,6 +1,7 @@
 import PokemonForm from './PokemonForm'
 import Filter from './Filter'
 import PokemonCollection from './PokemonCollection'
+//Imported data from other files
 
 function App() {
   return (
@@ -15,5 +16,6 @@ function App() {
     </div>
   );
 }
+//component that holds all of the other components in it to create the actual app.
 
 export default App;

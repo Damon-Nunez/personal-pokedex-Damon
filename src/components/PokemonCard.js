@@ -18,5 +18,8 @@ function PokemonCard(){
         </div>
     )
 }
+// seems like the card has already been designed for me
+// Im assuming the POKEMON HP HERE and Pokemon NAme here is to plug in that data when creating a new card
+// Or maybe its like a fill in with transparent words
 
 export default PokemonCard

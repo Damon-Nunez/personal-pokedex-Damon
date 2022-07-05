@@ -6,9 +6,16 @@ You'll be building the following project:
 
 ## Features
 
-1. A user can fill out and submit the form to create a new pokemon. This will display the new pokemon on the page and the new pokemon data should persist, even after the page is refreshed. This means you'll have to make a POST request to the API!
+1. A user can fill out and submit the form to create a new pokemon.
+----> Create a form on the page
+ This will display the new pokemon on the page and the new pokemon data should persist, even after the page is refreshed. This means you'll have to make a POST request to the API!
+ ------> With the submitted form application render it to the page and
+ POST request to the API so it can stay up on the page
+ fetch using the input of the form and return and render on page using DOM manipulation
 2. A user can use the search bar to filter pokemon by name.
+----> Using form input remove all other pokemon if they dont match the name
 3. A user can click on a pokemon card to toggle seeing its front sprite or back sprite.
+onclick toggle card sprite
 
 ### Tip: Remember Controlled Components
 
@@ -27,8 +34,10 @@ In another temrinal, run `json-server --watch db.json --port 4000` to start a mo
 If you need a refresher, see the JSON Server documentation [here](https://github.com/typicode/json-server#getting-started).
 
 You will be getting pokemon data from the URL `http://localhost:4000/pokemon`.
+GET Function to get all pokemon data.
 
 In order for your data to persist, you will be POSTing to the same URL `http://localhost:4000/pokemon`. 
+POST request
 
 Remember, for JSON Server, you will need to include a `Content-Type: application/json` header. For the body of the request, see the data structure of the existing pokemon as an exmple.
 

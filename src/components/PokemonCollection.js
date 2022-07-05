@@ -7,5 +7,6 @@ function PokemonCollection(){
         </div>
     )
 }
+//Not sure what this is for
 
 export default PokemonCollection
